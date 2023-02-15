@@ -95,6 +95,21 @@ const Footer = () => {
           <p className="text-black-600 mb-4 font-medium text-lg">Earn Money</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              Freelancing{" "}
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              Product & Services{" "}
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              APIs{" "}
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              Templates{" "}
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              Panaverse Dao{" "}
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Mission{" "}
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
