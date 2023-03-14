@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from 'next/link'
 
 const Hero = ({
   listUser = [
@@ -44,7 +45,21 @@ const Hero = ({
               pakistan, getting ready for the next generation of the internet
               while earning in dollars.
             </p>
-            <ButtonPrimary>Documentation</ButtonPrimary>
+          
+            {/* <Link href="https://portal.piaic.org/">
+              <a className="block px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                <ButtonPrimary>Go To Portal</ButtonPrimary>
+              </a>
+            </Link> */}
+
+
+<Link href="https://portal.piaic.org/" passHref={true}>
+  <a target="_blank" rel="noopener noreferrer" className="block px-4 py-2 border border-transparent rounded-md text-base font-medium text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+    <ButtonPrimary>Go To Portal</ButtonPrimary>
+  </a>
+</Link>
+
+
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>

@@ -16,7 +16,7 @@ const Testimoni = ({
       country: "Pakistan",
       rating: "5",
       testimoni:
-        "As a PIAIC Blockchain student, Shazain has likely undergone extensive training in blockchain technology, which is a field that has been gaining traction in recent years. The fact that Shazain has been able to apply the skills he has learned in PIAIC to create such a substantial financial gain is a testament to the quality of the program and the student's aptitude and commitment to learning.",
+        "As a PIAIC Blockchain student, Shazain has likely undergone extensive training in blockchain technology, which is a field that has been gaining traction in recent years. The fact that Shazain has been able to apply the skills he has learned in PIAIC to create such a substantial financial gain is a testament to the quality of the program and the student's aptitude and commitment to learning, youngest millionare",
     },
     {
       name: "Noor ul Ain Afaq",
@@ -25,7 +25,7 @@ const Testimoni = ({
       country: "Pakistan",
       rating: "4.5",
       testimoni:
-        "The fact that this housewife has been able to transform her life and the lives of her children is an incredible achievement. It is a testament to her resilience, her drive, and her ability to overcome obstacles. By becoming a blockchain developer, she has opened up new opportunities for herself and her family, providing them with greater financial stability and the possibility of a brighter future.",
+        "The fact that this housewife has been able to transform her life and the lives of her children is an incredible achievement. It is a testament to her resilience, her drive, and her ability to overcome obstacles. By becoming a blockchain developer, she has opened up new opportunities for herself and her family, providing them with greater financial stability and the possibility of a brighter future, i'm passionate about building",
     },
     {
       name: "Faiza Aziz Khan",
@@ -34,7 +34,7 @@ const Testimoni = ({
       country: "Pakistan",
       rating: "4.5",
       testimoni:
-        "The success story of Faiza Aziz Khan is truly remarkable, and it demonstrates the power of hard work, determination, and entrepreneurship. Earning a million dollars working from home is an incredible feat, and it is a testament to the potential of remote work and the digital economy.",
+        "The success story of Faiza Aziz Khan is truly remarkable, and it demonstrates the power of hard work, determination, and entrepreneurship. Earning a million dollars working from home is an incredible feat, and it is a testament to the potential of remote work and the digital economy. Faiza's achievement also underscores the importance of acquiring the necessary skills to thrive in a digital world, such as proficiency in technologies",
     },
     {
       name: "Aisha",
@@ -43,7 +43,7 @@ const Testimoni = ({
       country: "Pakistan",
       rating: "4.5",
       testimoni:
-        "As a PIAIC Cloud-Native student, Aisha has likely undergone extensive training in cloud computing, which is an emerging field with a lot of potential for growth. The skills and knowledge she has acquired through this program would have undoubtedly played a significant role in the success of her startup.",
+        "As a PIAIC Cloud-Native student, Aisha has likely undergone extensive training in cloud computing, which is an emerging field with a lot of potential for growth. The skills and knowledge she has acquired through this program would have undoubtedly played a significant role in the success of her startup. In addition to providing a cost-effective infrastructure, cloud computing can also enhance the needs of businesses",
     },
   ],
 }) => {

@@ -3,6 +3,7 @@ import Logo from "../../public/assets/panaverse.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
+import Link from 'next/link'
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
@@ -19,24 +20,28 @@ const Footer = () => {
             things.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
-            <a
-              href="https://www.facebook.com/groups/panaverse"
-              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md"
-            >
+
+
+          <Link href="https://www.facebook.com/groups/panaverse" passHref={true}>
+              <a target="_blank" rel="noopener noreferrer" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Facebook className="h-6 w-6" />
-            </a>
-            <a
-              href="https://twitter.com/Panaverse_edu"
-              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md"
-            >
+              </a>
+            </Link>
+
+
+            <Link href="https://twitter.com/Panaverse_edu" passHref={true}>
+              <a target="_blank" rel="noopener noreferrer" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Twitter className="h-6 w-6" />
-            </a>
-            <a
-              href="https://www.instagram.com/piaicofficial/"
-              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md"
-            >
+              </a>
+            </Link>
+
+
+            <Link href="https://www.instagram.com/piaicofficial/" passHref={true}>
+              <a target="_blank" rel="noopener noreferrer" className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
-            </a>
+              </a>
+            </Link>
+
           </div>
           <p className="text-gray-400">
             ©{new Date().getFullYear()} - Panaverse
